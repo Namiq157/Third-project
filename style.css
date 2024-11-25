@@ -310,10 +310,6 @@ header {
     .left-conv-button , .right-conv-button{
         width: 270px;
     }
-    .menu{
-        display:block;
-        margin-right: 10px;
-    }
 }
 
 .Li{
