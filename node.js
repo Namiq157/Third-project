@@ -257,10 +257,10 @@ menu.addEventListener("click", () => {
         newUl.classList.add("newUl");
         let items = ["БАНК", "БИЗНЕС", "ИНВЕСТИЦИИ", "СТРАХОВАНИЕ", "МОБАЙЛ", "ПУТЕШЕСТВИЯ", "РАЗВЛЕЧЕНИЯ"];
         items.forEach(item => {
-            let newLi = document.createElement("li");
-            newLi.classList.add("newLi");
-            newLi.textContent = item;
-            newUl.append(newLi);
+            let Li = document.createElement("li");
+            Li.classList.add("Li");
+            Li.textContent = item;
+            newUl.append(Li);
         });
         mainDiv.insertBefore(newUl, mainDiv.children[0]);
     } else {
